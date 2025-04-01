@@ -1,0 +1,179 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+    border-radius: 0;
+}
+
+main {height: 90vh;}
+.brand img{
+    width: 10%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.hero {
+    background-image: url("../img/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.hero-heading img{
+    width: 30%;
+}
+.hero-container {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    font-family: century-gothic, sans-serif;
+}
+.hero-heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact input[type=text],
+.form-contact input[type=text]:hover,
+.form-contact input[type=text]:focus,
+.form-contact input[type=text]:active {
+    border-radius: 0;
+}
+
+.form-contact input[type=number],
+.form-contact input[type=number]:hover,
+.form-contact input[type=number]:focus,
+.form-contact input[type=number]:active {
+    border-radius: 0;
+}
+
+.form-contact input[type=email],
+.form-contact input[type=email]:hover,
+.form-contact input[type=email]:focus,
+.form-contact input[type=email]:active {
+    border-radius: 0;
+}
+
+.form-contact button,
+.form-contact button:hover,
+.form-contact button:focus,
+.form-contact button:active {
+    background-color: #E0582A;
+    color: #fff;
+    text-transform: uppercase;
+    border-color: transparent;
+}
+.form-check {
+    text-align: left;
+}
+.form-div {
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+
+/**/
+
+.custom-alert {
+    background-color: #E0582A;
+    padding: 1rem 0;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.custom-alert-1 {
+    background-color: #E0582A;
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.property-box{
+    margin: 4rem 0;
+    padding: 0;
+    /* background-color: #eee4d9; */
+}
+
+.property-box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.property-box h1, .property-box h2, .property-box h3 {
+    font-family: century-gothic, sans-serif;
+    color: black;
+}
+
+.property-box h1{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.property-box h2{
+    font-size: 1.3rem;
+}
+.property-box h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.property-box img{
+    object-fit: cover !important;
+    height: 65vh;
+    width: 100%;
+}
+
+.why-uae{
+    background-image: url("../img/why-uae.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 30rem;
+    font-family: century-gothic, sans-serif;
+}
+
+.why-uae p,.why-dubai p{
+    max-width: 50rem;
+    font-size: 400;
+}
+
+.why-uae h1,.why-dubai h1{
+    color: #E0582A;
+}
+
+
+.why-dubai{
+    background-image: url("../img/why-dubai.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 30rem;
+    font-family: century-gothic, sans-serif;
+}   
+
+.footer-form{
+    background-image: url("../img/bottom-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+
+}
+
+.form-container{
+    /* max-width: 100px; */
+    display: flex;
+    justify-content: center;
+}

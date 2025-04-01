@@ -1,0 +1,36 @@
+main {
+    height: 100%;
+}
+body{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.brand img{
+    width: 8rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.hero {
+    background-image: url("../img/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+.hero-heading img{
+    width: 10rem;
+}
+.hero-container {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    font-family: century-gothic, sans-serif;
+}
+.hero-heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

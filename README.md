@@ -1,16 +1,92 @@
-# Portfolio Website for myself
+# Portfolio Website
 
-Explore my portfolio to learn more about my skills, experiences, and interests.
+A sleek, performant portfolio built with:
 
-# Setup
-To use this portfolio for yourself, you will need to have the following dependencies installed on your system:
-- A web server (such as Apache or Nginx) 
-- HTML and CSS knowledge to fit your needs
+- Next.js 15 (App Router)
+- TypeScript
+- Shadcn/ui (Radix + TailwindCSS)
+- Bun (or npm/yarn)
 
-# Credits
-This portfolio was created by [Harsh Vishwakarma](https://github.com/imhxrsh/). Special thanks to the following libraries and resources:
-- [HTML](https://html.spec.whatwg.org/)
-- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+## Features
 
+**Modern Stack**
 
-Thank you for viewing my portfolio!
+- Next.js App Router
+- TypeScript
+- TailwindCSS with CSS variables
+- Shadcn/ui components
+
+**Theming**
+
+- Light/dark mode (via `theme-provider.tsx`)
+- Animated transitions
+
+**Responsive**
+
+- Mobile-first design
+- Custom hooks (`use-mobile.tsx`)
+- Adaptive layouts
+
+**Structured Components**
+
+- Project cards (`project-card.tsx`)
+- Experience timeline (`experience-card.tsx`)
+- Education section (`education-card.tsx`)
+
+## Setup
+
+### With Bun (recommended)
+
+```bash
+bun install
+bun dev
+```
+
+### With npm/yarn
+
+```bash
+npm install
+npm run dev
+
+or
+
+yarn install
+yarn dev
+```
+
+## Project Structure
+
+```
+app/
+  fonts/           # Custom fonts
+  globals.css      # Global styles
+components/
+  ui/             # Shadcn/ui components
+  *-card.tsx      # Portfolio-specific cards
+public/           # Static assets
+styles/           # CSS files
+```
+
+## Customization
+
+1. **Profile Images**:
+   Replace `public/profile.jpg` and other placeholders
+
+2. **Theme Colors**:
+   Edit `tailwind.config.ts` to change the color scheme
+
+3. **Content**:
+   Update the cards in `/components` with your projects/experience
+
+## Credits
+
+This project uses these major dependencies:
+
+- [Shadcn/ui](https://ui.shadcn.com/) - UI components
+- [Radix UI](https://www.radix-ui.com/) - Primitives
+- [TailwindCSS](https://tailwindcss.com/) - Styling
+- [Next.js](https://nextjs.org/) - Framework
+
+## License
+
+MIT © 2025 Harsh Vishwakarma - See [LICENSE](./LICENSE) for details.

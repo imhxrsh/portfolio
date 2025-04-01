@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+	background-image: url('../img/main.png'); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 80%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+nav a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+	color: #020f38;
+}
+
+p {
+	font-size: 1.15rem;
+	color: #282828;
+	font-family: 'Poppins', sans-serif;
+}
+
+.stroke-container h1 {
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.stroke {
+	height: 45px;
+}
+
+#services {
+	contain: content;
+}
+
+/* main */
+
+#main h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* main end */
+
+/* Services */
+#services h1,
+#contact h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Services end */
+
+/* footer */
+
+footer a {
+	color: #5d5d5d !important;
+}
+
+/* footer end */
+
+/* Bootstrap mod */
+.form-control:focus {
+	box-shadow: none;
+}
+
+form input,
+form select,
+form textarea,
+form ::placeholder {
+	font-size: 0.9rem !important;
+	color: #ffb3b7 !important;
+	border-color: #ffb3b7 !important;
+}
+
+button {
+	background-color: #ffb3b7 !important;
+	font-weight: bolder !important;
+	color: #fff !important;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+	background-color: #ffb3b7;
+}
