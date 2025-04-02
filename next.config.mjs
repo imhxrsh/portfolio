@@ -15,7 +15,7 @@ const nextConfig = {
 		ignoreBuildErrors: true,
 	},
 	images: {
-		unoptimized: true, // Disable image optimization if not needed
+		unoptimized: false, // Disable image optimization if not needed
 		domains: [], // Add any external image domains here
 	},
 	experimental: {

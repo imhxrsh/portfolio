@@ -35,8 +35,7 @@ export default function DiscordContactForm() {
 		setError("");
 
 		try {
-			const webhookUrl =
-				"https://discord.com/api/webhooks/1356708107446648893/LExfYIs7AU6PR-2C-EzGa8I6FH8hTdqMUxIOgugCuOm8XzMtiH9eO4MDPRQR-uivd8GS";
+			const webhookUrl = process.env.NEXT_PUBLIC_DISCORD_WEBHOOK_URL;
 
 			const embed = {
 				title: "New Contact Form Submission",
